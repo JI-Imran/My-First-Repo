@@ -8,6 +8,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
+    color: #8c8c8c;
 
 }
 
@@ -51,6 +52,7 @@ header nav li a{
     font-size: 40px;
     font-weight: 800;
     line-height: 40px;
+    color: #000;
 }
 .header_text p{
     margin-bottom: 30px;
@@ -130,12 +132,55 @@ main {
     position: relative;
     display: flex;    
     margin-top: 70px;
+    margin-bottom: 30px;
+    z-index: -5555;
 }
 .feature_section_container .feature_text{
     width: 50%;
 }
-
+.feature_section_container .feature_text .heading{
+    margin-left: 20px;
+}
+.feature_section_container .feature_text .heading h2{
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #000;
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+.feature_section_container .feature_text .heading p{
+    margin-bottom: 20px;
+    color: #8c8c8c;
+}
+.feature_section_container .feature_text .box{
+    padding: 10px;
+    background: #e8e7e7;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 15px;
+    padding-right: 50px;
+}
+.feature_section_container .feature_text  div h1{
+    color: #000;
+}
 
 .feature_section_container img{
     width: 50%;
+}
+.feature_section_container img{
+    height: 805px;
+}
+
+.special_button{
+    text-align: center;
+    margin-top: -100px;
+    z-index: 11111;
+}
+.special_button a{
+    padding: 10px 10px;
+    background: #FF900E;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 8px;
 }
