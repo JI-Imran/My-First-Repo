@@ -1,0 +1,141 @@
+
+/* ===============common css
+============================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+
+}
+
+/* ==============header css
+============================ */
+
+header{
+    background: #ff8f0e28;
+    padding: 30px;
+    position: relative;
+}
+header nav{
+}
+header nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav ul{
+    overflow: hidden;
+
+}
+header nav li{
+    list-style-type: none;
+}
+header nav li a{
+    font-size: 16px;
+    float: right;
+    padding-right: 50px;
+
+}
+.header_text{
+    text-align: center;
+}
+.header_text h2,p{
+    padding-top: 30px;
+} 
+.header_text h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+}
+.header_text p{
+    margin-bottom: 30px;
+}
+.header_text a{
+    text-decoration: none;
+    margin-top: 200px;
+    color: #ffffff;
+    background: #FF900E;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header img{
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+/* ===================main section css
+======================================= */
+
+main {
+    padding: 30px;
+}
+
+.hero_section{
+    position: relative;
+    display: flex;
+}
+.team{
+    width: 50%;
+}
+.team img{
+    width: 275px;
+    padding: 10px 10px;
+}
+.quick_list{
+    width: 50%;
+    float: right;
+    align-self: center;
+}
+.quick_list h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #8c8c8c;
+    line-height: 30px;
+}
+.quick_list h3 .black{
+    font-weight: 800;
+    color: #000;
+}
+.quick_list h3 .orange{
+    font-weight: 800;
+    color: #FF900E;
+}
+.quick_list p{
+    color: #8c8c8c;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.quick_list a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #FF900E;
+    border-radius: 5px;
+}
+
+
+/* ================feature css
+=============================== */
+
+.feature_section_container{
+    position: relative;
+    display: flex;    
+    margin-top: 70px;
+}
+.feature_section_container .feature_text{
+    width: 50%;
+}
+
+
+.feature_section_container img{
+    width: 50%;
+}
